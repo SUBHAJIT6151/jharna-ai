@@ -1,0 +1,69 @@
+~/jharna-ai
+
+echo "===== FILES ====="
+ls -la
+
+echo "===== PACKAGE ====="
+cat package.json
+
+echo "===== PUBLIC FILE ====="
+ls -lh public/index.html
+
+echo "===== SECRET PROTECTION ====="
+git check-ignore .env
+===== FILES =====
+total 178
+drwx------.  6 u0_a424 u0_a424  3452 Nov 23 20:03  .
+drwx------. 10 u0_a424 u0_a424  3452 Nov 23 20:35  ..
+-rw-------.  1 u0_a424 u0_a424    70 Nov 21 18:45  .env
+drwx------.  6 u0_a424 u0_a424  3452 Nov 23 20:03  .git
+-rw-------.  1 u0_a424 u0_a424   206 Nov 23 20:03  .gitignore
+-rw-------.  1 u0_a424 u0_a424    39 Nov 21 18:32 '^c^c^c'
+-rw-------.  1 u0_a424 u0_a424    75 Nov 21 18:39 '^c^c^c0ggh'
+-rw-------.  1 u0_a424 u0_a424  3612 Nov 23 03:50  add-video-call.cjs
+-rw-------.  1 u0_a424 u0_a424  1311 Nov 23 03:46  connect-avatar.cjs
+-rw-------.  1 u0_a424 u0_a424  1069 Nov 23 03:32  fix-call-order.cjs
+-rw-------.  1 u0_a424 u0_a424   762 Nov 23 03:36  fix-emoji-voice.cjs
+-rw-------.  1 u0_a424 u0_a424  1278 Nov 23 19:52  fix-voice.cjs
+-rw-------.  1 u0_a424 u0_a424  4223 Nov 23 19:57  index.js
+-rw-------.  1 u0_a424 u0_a424  2796 Nov 23 19:57  index.js.backup
+-rw-------.  1 u0_a424 u0_a424  2356 Nov 23 02:57  index.js.backup3
+-rw-------.  1 u0_a424 u0_a424  2759 Nov 23 04:13  index.js.before-public
+drwx------.  2 u0_a424 u0_a424  3452 Nov 23 19:54  logs
+drwx------. 99 u0_a424 u0_a424  8192 Nov 21 18:16  node_modules
+-rw-------.  1 u0_a424 u0_a424 47197 Nov 21 18:39  package-lock.json
+-rw-------.  1 u0_a424 u0_a424   349 Nov 21 18:39  package.json
+-rw-------.  1 u0_a424 u0_a424  2827 Nov 23 19:57  patch-chat.cjs
+-rw-------.  1 u0_a424 u0_a424   656 Nov 23 04:13  prepare-public.cjs
+drwx------.  2 u0_a424 u0_a424  3452 Nov 23 04:00  public
+-rw-------.  1 u0_a424 u0_a424  3157 Nov 23 03:17  reaction-fix.cjs
+-rw-------.  1 u0_a424 u0_a424   828 Nov 23 04:00  rename-project.cjs
+-rw-------.  1 u0_a424 u0_a424    47 Nov 21 18:56  server.log
+-rw-------.  1 u0_a424 u0_a424     6 Nov 23 19:48  server.pid
+-rwx------.  1 u0_a424 u0_a424   370 Nov 23 19:54  start-jharna.sh
+-rw-------.  1 u0_a424 u0_a424     6 Nov 23 19:54  supervisor.pid
+-rw-------.  1 u0_a424 u0_a424  6899 Nov 23 03:28  voice-logic.cjs
+-rw-------.  1 u0_a424 u0_a424  2346 Nov 23 03:27  voice-ui.cjs
+===== PACKAGE =====
+{
+"name": "jharna-ai",
+"version": "1.0.0",
+"description": "",
+"main": "index.js",
+"scripts": {
+"test": "echo "Error: no test specified" && exit 1"
+},
+"keywords": [],
+"author": "",
+"license": "ISC",
+"type": "module",
+"dependencies": {
+"@google/genai": "^3.6.1",
+"dotenv": "^18.0.10",
+"express": "^5.3.0"
+}
+}
+===== PUBLIC FILE =====
+-rw-------. 1 u0_a424 u0_a424 24K Nov 23 19:52 public/index.html
+===== SECRET PROTECTION =====
+.env
